@@ -1,0 +1,166 @@
+::selection {    
+background: transparent;    
+color: #C4C4C4;    
+}    
+     
+::-moz-selection {    
+background: transparent;    
+color: #C4C4C4;    
+}    
+    
+::-webkit-scrollbar { width: 5px; }    
+::-webkit-scrollbar-track-piece { background-color:#333; }    
+::-webkit-scrollbar-thumb:vertical {    
+    width: 10px;    
+    background-color: #C4C4C4;    
+}    
+    
+body {    
+    background-color: #111111;    
+    background-image: url('/');    
+    background-attachment: center;    
+    margin: 0;    
+    word-wrap: break-word;    
+}    
+a { text-decoration:none; }    
+    
+#sidebar {    
+    top: 50px;    
+    position: fixed;    
+    width: 240px;    
+    left: 500px;    
+        
+        
+        
+}    
+    
+.sbpic { width: 240px; padding-top: 5px;filter: blur(1px)}    
+.sbpic:hover {filter: blur(0px);}    
+    
+.ti {    
+    width: 220px;    
+    padding: 10px 10px 5px 10px;    
+    border-bottom: 1px solid #C4C4C4;    
+}    
+    
+.t1 {     
+    text-transform: uppercase;    
+    font-family: nova square;    
+    font-size: 16px;    
+    text-align: center;    
+    width: 160px;    
+    margin-left: 30px;    
+    color: #d0d0d0;    
+}    
+    
+.t2 {    
+    font-family: consolas;    
+    font-size: 8px;    
+    text-transform: uppercase;    
+    text-align: center;    
+    margin-bottom: 5px;    
+    letter-spacing: 1px;    
+    width: 165px;    
+    margin-left: 30px;    
+    color: #aaaaaa;    
+}    
+    
+.c1, .c2 {    
+    font-family: georgia;    
+    font-size: 50px;    
+    margin: 0 5px;    
+    position: absolute;    
+    color: #ffffff;    
+}    
+    
+.c2 { margin: 0 195px; }    
+    
+.navigate { margin-top: -5px;width: 260px;margin-left:10px; }    
+.navigate a {    
+    margin-right: 2px;    
+    background-color: #2b2b2b;    
+    color: #bbbbbb;    
+    border-bottom: 2px solid #C4C4C4;    
+    font-family: consolas;    
+    font-size: 9px;    
+    letter-spacing: 1px;    
+    padding: 2px 9.5px;    
+    text-transform: uppercase;    
+    transition: 0.6s;    
+    -moz-transition: 0.6s;    
+    -webkit-transition: 0.6s;    
+}    
+    
+.navigate a:hover {    
+    background-color: #000000;    
+    color: #ffffff;    
+    border-bottom: 2px solid #888888;    
+}    
+    
+.desc {    
+    width: 220px;    
+    margin-top: 10px;    
+    font-family: consolas;    
+    font-size: 10px;    
+    text-align: center;    
+    padding: 5px 10px;    
+    color: #a0a0a0;    
+}    
+    
+.desc b,strong {color: #C4C4C4;}    
+.desc i,em {color: #e6e6e6;}    
+.desc a {    
+    color: #378471;    
+    transition: 0.6s;    
+    -moz-transition: 0.6s;    
+    -webkit-transition: 0.6s;    
+}    
+.desc a:hover {color: #474747;}    
+    
+#customlinks {    
+    position: absolute;    
+    margin: 20px 250px;    
+    width: 500px;    
+}    
+    
+#link { margin-bottom: 10px;height:16px;overflow:hidden; }    
+    
+.rom {    
+    width: 16px;    
+    height: 16px;    
+    background-color: #42484c;    
+    color: #ffffff;    
+    text-align: center;    
+    line-height: 16px;    
+    font-size: 9px;    
+    position: relative;    
+    z-index: 2;    
+    font-family: georgia;    
+    letter-spacing: -1px;    
+}    
+    
+.linkt {    
+    position: absolute;    
+    z-index: 1;    
+    background-color: #222222;    
+    color: #888888;    
+    font-size: 8px;    
+    font-family: consolas;    
+    letter-spacing: 1px;    
+    display: block;    
+    padding: 4px 5px 3px 5px;    
+    transition: 0.6s;    
+    margin: -16px 0px;    
+    opacity: 0;    
+    -moz-transition: 0.6s;    
+    -webkit-transition: 0.6s;    
+}    
+    
+#link:hover .linkt {opacity: 1;margin: -16px 16px;}    
+    
+    
+[name=datoslink]{text-decoration:none;color:#FFFFFF;font-family:impact;letter-spacing:5px;font-size:15px}                                                                                    
+[name=links]{position:absolute;margin-top:-45px;margin-left:-155px}                                                                                                
+[name=rrss]{text-decoration:none;color:#C4C4C4;font-family:courier;letter-spacing:5px;position:absolute;margin-top:565px;margin-left:530px}                                                                                                   
+[name=post]{z-index:18;margin-top:-25px;margin-left:350px;background-color:none;width:0px;height:270px;position:absolute;}                                                                                                   
+[name=postimg]{display:block;max-width:0px;margin-top:13px;margin-left:300px;position:absolute}::-webkit-scrollbar{height:7px;width:3px;        
